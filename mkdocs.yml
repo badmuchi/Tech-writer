@@ -1,0 +1,51 @@
+site_name: "Badma Gakhaev | Technical Writing Portfolio"
+site_author: "Badma Gakhaev"
+
+theme:
+  name: material
+  language: ru
+  # Добавляем логотип (иконку книги) в шапку
+  icon:
+    logo: material/book-open-page-variant
+  # Настраиваем палитру и переключатель темной/светлой темы
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Включить темную тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Включить светлую тему
+  features:
+    - navigation.tabs # Верхнее меню
+    - content.code.copy # Кнопка копирования кода
+  
+
+repo_name: badmuchi/Tech-writer
+repo_url: https://github.com/badmuchi/Tech-writer
+
+# Добавляем социальные кнопки в футер (подвал) сайта
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/badmuchi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/badma-gakhaev-913a7438/  # Замени на свой, если есть
+  
+nav:
+  - Home: index.md
+  - Weather API Guide: api-guide.md
+  - API Spec: api-spec.md
+  - API Errors: api-errors.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences # Корректное отображение блоков кода
