@@ -3,7 +3,7 @@
 
 ## Technical Writer | Localization Specialist 📍 Moscow, Russia (Ready to relocate / remote)
 
-📧 badmuchi@gmail.com | 📱 +7 (968) 6205390
+📧 badmuchi@gmail.com  | 📱 +7 (968) 6205390
 
 🔗 [GitHub Profile](https://github.com/badmuchi) | [LinkedIn Profile](https://www.linkedin.com/)
 

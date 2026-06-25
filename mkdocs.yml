@@ -3,7 +3,7 @@ site_author: "Badma Gakhaev"
 
 theme:
   name: material
-  language: ru
+  language: en
   # Добавляем логотип (иконку книги) в шапку
   icon:
     logo: material/book-open-page-variant
@@ -24,7 +24,7 @@ theme:
         icon: material/weather-night
         name: Включить светлую тему
   features:
-    - navigation.tabs # Верхнее меню
+    - navigation.instant # Верхнее меню
     - content.code.copy # Кнопка копирования кода
   
 
@@ -44,10 +44,14 @@ nav:
   - Weather API Guide: api-guide.md
   - API Spec: api-spec.md
   - API Errors: api-errors.md
-  - CV: CV.md
-  - CV in Russian: CV-Ru.md
+  - CV (En): cv.md
+  - CV (Ru): cv-ru.md
 
 markdown_extensions:
+  - attr_list
+  - tables
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.superfences # Корректное отображение блоков кода

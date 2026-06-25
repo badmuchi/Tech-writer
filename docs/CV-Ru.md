@@ -3,7 +3,7 @@
 
 ## Технический писатель | Специалист по локализации 📍 Москва, Россия (Готов к переезду / удаленной работе)
 
-📧 [badmuchi@gmail.com](badmuchi@gmail.com) | 📱 +7 (968) 6205390
+📧 badmuchi@gmail.com  | 📱 +7 (968) 6205390
 
 🔗 [GitHub](https://github.com/badmuchi) | [LinkedIn](https://www.linkedin.com/)
 
