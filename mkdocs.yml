@@ -38,7 +38,13 @@ extra:
       link: https://github.com/badmuchi
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/badma-gakhaev-913a7438/  # Замени на свой, если есть
-  
+  alternate:
+    - name: English (EN)
+      link: /Tech-writer/CV/
+      lang: en
+    - name: Русский (RU)
+      link: /Tech-writer/CV-Ru/
+      lang: ru
 nav:
   - Home: index.md
   - Weather API Guide: api-guide.md
@@ -46,15 +52,6 @@ nav:
   - API Errors: api-errors.md
   - CV (En): cv.md
   - CV (Ru): cv-ru.md
-
-extra:
-alternate:
-- name: English (EN)
-link: /Tech-writer/CV/
-lang: en
-- name: Русский (RU)
-link: /Tech-writer/CV-Ru/
-lang: ru
 
 markdown_extensions:
   - attr_list
