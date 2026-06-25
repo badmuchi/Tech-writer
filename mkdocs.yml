@@ -11,14 +11,14 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: black
       accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Включить темную тему
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
+      primary: black
       accent: blue
       toggle:
         icon: material/weather-night
@@ -44,6 +44,8 @@ nav:
   - Weather API Guide: api-guide.md
   - API Spec: api-spec.md
   - API Errors: api-errors.md
+  - CV: CV.md
+  - CV in Russian: CV-Ru.md
 
 markdown_extensions:
   - pymdownx.highlight:

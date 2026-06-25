@@ -33,7 +33,7 @@
 
  - __Freelance__ | *Technical & Literary Translator, Language Consultant*
 
-    *May 2007 — Present (18 years 2 months)*
+    *May 2007 — Present*
 
     - __Technical Translation & Editing__: Translated complex technical specifications, user manuals, and literary texts between English, French, and Russian, ensuring terminological consistency and logical clarity.
 
@@ -41,7 +41,7 @@
 
  - __Maytoni GmbH__ | *International Partnerships Specialist*
 
-    *July 2021 — June 2022 (1 year)*
+    *July 2021 — June 2022*
 
     - __Documentation Management__: Authored and managed partner-facing sales documentation, agreements, and technical product specifications in English and French.
 
@@ -51,7 +51,7 @@
 
  - __Project Activities (E-Commerce & HR)__ | *Customer Support & HR Specialist*
 
-    *May 2021 — September 2022 (1 year 5 months)*
+    *May 2021 — September 2022*
 
     - __Knowledge Base Coordination__: Created structured workflows and guide documents for e-commerce international customer support.
 
@@ -59,13 +59,13 @@
 
  - __Sun School__ | *English Language Educator & Content Developer*
 
-    *August 2017 — October 2019 (2 years 3 months)*
+    *August 2017 — October 2019*
 
     - __Materials Development__: Researched, designed, and documented educational curriculum and pedagogical guidelines.
 
  - __SGH LLC__ | *Purchase and Sales Specialist*
 
-    *November 2013 — April 2015 (1 year 6 months)*
+    *November 2013 — April 2015*
 
     - __Auction & Legal Documentation__: Prepared, reviewed, and finalized high-stakes bidding documentation for state and electronic commercial auctions.
 
@@ -73,13 +73,13 @@
 
  - __Prolangue LC__ | *Corporate Language Consultant*
 
-    *March 2008 — May 2011 (3 years 3 months)*
+    *March 2008 — May 2011*
 
     - __Content Design__: Developed tailored educational frameworks and documented corporate training progress reports.
 
  - __Femida LLC__ | *Translator & Document Coordinator*
 
-    *September 2006 — May 2007 (9 months)*
+    *September 2006 — May 2007*
 
     - __Document Lifecycle Management__: Received, categorized, processed, and translated legal and business documentation.
 
@@ -114,4 +114,4 @@
 ## Additional Information
 
 - __Advanced AI User__: Experienced in prompt engineering and utilizing Large Language Models (LLM) to assist in editing and accelerating documentation generation.
-- __Interests__: Musician, songwriter, and capoeira practitioner.
+- __Interests__: Music, songwriting, and capoeira.
