@@ -40,10 +40,10 @@ extra:
       link: https://www.linkedin.com/in/badma-gakhaev-913a7438/  # Замени на свой, если есть
   alternate:
     - name: English (EN)
-      link: /Tech-writer/
+      link: /Tech-writer/cv/
       lang: en
     - name: Русский (RU)
-      link: /Tech-writer/
+      link: /Tech-writer/cv-ru/
       lang: ru
 nav:
   - Home: index.md
