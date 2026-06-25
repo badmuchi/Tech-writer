@@ -1,9 +1,9 @@
 # Бадма Гахаев
-<img src="CV.png" alt="Badma Gakhaev" width="150" style="border-radius: 8px; margin-bottom: 15px;">
+<img src="../CV.png" alt="Badma Gakhaev" width="150" style="border-radius: 8px; margin-bottom: 15px;">
 
 ## Технический писатель | Специалист по локализации 📍 Москва, Россия (Готов к переезду / удаленной работе)
 
-📧 badmuchi@gmail.clsom  | 📱 +7 (968) 6205390
+📧 badmuchi@gmail.com  | 📱 +7 (968) 6205390
 
 🔗 [GitHub](https://github.com/badmuchi) | [LinkedIn](https://www.linkedin.com/)
 

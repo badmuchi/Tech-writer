@@ -1,5 +1,5 @@
 # Badma Gakhaev
-<img src="CV.png" alt="Badma Gakhaev" width="150" style="border-radius: 8px; margin-bottom: 15px;">
+<img src="../CV.png" alt="Badma Gakhaev" width="150" style="border-radius: 8px; margin-bottom: 15px;">
 
 ## Technical Writer | Localization Specialist 📍 Moscow, Russia (Ready to relocate / remote)
 

@@ -1,4 +1,4 @@
-site_name: "Badma Gakhaev | Technical Writing Portfolio"
+site_name: "Portfolio"
 site_author: "Badma Gakhaev"
 
 theme:
@@ -55,3 +55,12 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.superfences # Корректное отображение блоков кода
+
+extra:
+alternate:
+- name: English (EN)
+link: /Tech-writer/CV/
+lang: en
+- name: Русский (RU)
+link: /Tech-writer/CV-Ru/
+lang: ru
