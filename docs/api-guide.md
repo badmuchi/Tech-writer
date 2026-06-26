@@ -11,7 +11,7 @@ sequenceDiagram
         API->>DB: Request data for London
         DB-->>API: Return current weather JSON 
         API-->>User: 200 OK (Weather data in JSON)
-    else If key is not valid (Error)
+    else If key is invalid (Error)
         API-->>User: 401 Unauthorized (Invalid API Key)
     end
 ```
