@@ -15,6 +15,7 @@ sequenceDiagram
         API-->>User: 401 Unauthorized (Invalid API Key)
     end
 ```
+![Weather App Logic](api-flow.drawio.png)
 
 # Weather API Integration Guide
 
