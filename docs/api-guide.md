@@ -1,3 +1,21 @@
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User as Client (Browser)
+    participant API as Weather API Server
+    participant DB as Database (Cache)
+
+    User->>API: GET /v1/weather?city=London&key=xyz
+    Note over API: API Key & City Validation
+    alt If key is valid (Success)
+        API->>DB: Request data for London
+        DB-->>API: Return current weather JSON 
+        API-->>User: 200 OK (Weather data in JSON)
+    else If key is not valid (Error)
+        API-->>User: 401 Unauthorized (Invalid API Key)
+    end
+```
+
 # Weather API Integration Guide
 
 This guide explains how to integrate with the WeatherAPI service to retrieve real-time weather data using Python.
