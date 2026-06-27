@@ -19,3 +19,5 @@ A comprehensive guide on how to integrate a REST API, authenticate requests, and
 
 ### 2. Markdown & Git Cheat Sheet (Coming Soon)
 A quick-start guide for internal development teams to standardize technical writing workflows.
+
+:-)

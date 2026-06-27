@@ -1,0 +1,31 @@
+name: Automated MkDocs Deploy
+
+# Робот просыпается каждый раз, когда мы делаем git push в ветку main
+on:
+  push:
+    branches:
+      - main
+
+# Разрешаем роботу записывать данные в репозиторий (чтобы обновить ветку gh-pages)
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest # Запускаем робота на чистом сервере Linux (Ubuntu)
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Шаг 1: Робот скачивает наш код
+
+      - name: Set up Python
+        uses: actions/setup-python@v5 # Шаг 2: Робот устанавливает Python
+        with:
+          python-version: 3.x
+
+      - name: Install MkDocs Material
+        run: |
+          pip install mkdocs-material # Шаг 3: Робот ставит нашу тему оформления
+
+      - name: Deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force --clean # Шаг 4: Робот сам публикует сайт!
