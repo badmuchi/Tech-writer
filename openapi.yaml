@@ -1,0 +1,57 @@
+openapi: 3.0.3
+info:
+  title: Weather API Showcase
+  description: This is a sample OpenAPI specification for the WeatherAPI service.
+  version: 1.0.0
+
+servers:
+  - url: https://api.weatherapi.com/v1
+    description: Production server
+
+paths:
+  /current.json:
+    get:
+      summary: Get current weather data
+      description: Returns real-time weather conditions for a requested location.
+      parameters:
+        - name: key
+          in: query
+          required: true
+          description: Your personal API key.
+          schema:
+            type: string
+        - name: q
+          in: query
+          required: true
+          description: City name or coordinates (e.g., London, Paris).
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation. Weather data retrieved.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  location:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                        example: London
+                      country:
+                        type: string
+                        example: United Kingdom
+                  current:
+                    type: object
+                    properties:
+                      temp_c:
+                        type: number
+                        example: 15.0
+                      condition:
+                        type: object
+                        properties:
+                          text:
+                            type: string
+                            example: Partly cloudy
